@@ -1,0 +1,38 @@
+.NCard{
+    width: 90%;
+    /* background-color: red; */
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.218);
+    border: 0.5px solid rgba(0, 0, 0, 0.147);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.NCard>.Del_edite{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+}
+
+.NCard>.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.6;
+}
+.NCard>.date>p{
+    font-size: 14px;
+}
+
+.NCard>.title>h2{
+    font-style: italic;
+    font-size: 40px;
+    opacity: 0.5;
+    font-size: 25px;
+}
+.NCard>.title>h2:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}

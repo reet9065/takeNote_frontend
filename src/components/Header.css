@@ -1,0 +1,26 @@
+.Header{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: wheat;
+    width: 90%;
+    border: 0.5px solid rgba(0, 0, 0, 0.147);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.218);
+}
+.addnbtn{
+    background-color: white;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.218);
+    border: 0.5px solid rgba(0, 0, 0, 0.147);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.addnbtn>p{
+    padding: 7px;
+    color: gray;
+    font-weight: 500;
+
+}

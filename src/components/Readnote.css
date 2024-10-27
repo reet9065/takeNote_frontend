@@ -1,0 +1,31 @@
+.readnotec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: wheat;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.218);
+    border: 0.5px solid rgba(0, 0, 0, 0.147);
+    border-radius: 10px;
+    width: calc(90% - 50px);
+}
+.readnotec>p{
+    font-size: 20px;
+    width: 60%;
+    margin-top: 20px;
+}
+.readnotec>h1{
+    margin-top: 50px;
+}
+
+.readnotec>input[type="button"]{
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 5px;
+    border: 0.5px solid rgb(202, 159, 159);
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}

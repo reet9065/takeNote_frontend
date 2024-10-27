@@ -1,0 +1,78 @@
+.inputContainerr{
+    background-color: rgba(0, 0, 0, 0.648);
+    position: absolute;
+    z-index: 100;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputChild{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.218);
+    border: 0.5px solid rgba(0, 0, 0, 0.147);
+    border-radius: 10px;
+}
+.inputChild>form{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.inputChild>form>input[type = "text"]{
+    width: 100%;
+    align-self: center;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.inputChild>form>label{
+
+    align-self: first baseline;
+}
+.inputChild>form>textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.inputChild>form>.formbtn{
+
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    cursor: pointer;
+
+}
+
+.inputChild>form>.formbtn>input[type="button"]{
+
+    background-color: white;
+    padding: 5px;
+    border: 0.5px solid gray;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.inputChild>form>.formbtn>input[type="submit"]{
+
+    background-color: white;
+    padding: 5px;
+    border: 0.5px solid gray;
+    font-size: 16px;
+    font-weight: 500;
+
+}
